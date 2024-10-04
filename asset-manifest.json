@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moneymarket/static/css/main.56dcd030.css",
+    "main.js": "/moneymarket/static/js/main.d1ca0a39.js",
+    "static/js/453.a3858b6b.chunk.js": "/moneymarket/static/js/453.a3858b6b.chunk.js",
+    "index.html": "/moneymarket/index.html",
+    "main.56dcd030.css.map": "/moneymarket/static/css/main.56dcd030.css.map",
+    "main.d1ca0a39.js.map": "/moneymarket/static/js/main.d1ca0a39.js.map",
+    "453.a3858b6b.chunk.js.map": "/moneymarket/static/js/453.a3858b6b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56dcd030.css",
+    "static/js/main.d1ca0a39.js"
+  ]
+}
