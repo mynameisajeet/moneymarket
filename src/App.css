@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  /* solid background */
+  background: rgb(0,212,255);
+  
+  /* gradient background*/
+  background: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgba(11,3,45,1) 100%);    
+  
+  /* photo background */
+  background-image: url(https://images.unsplash.com/photo-1619204715997-1367fe5812f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1889&q=80);
+  background-size: cover;
+  background-position: center;  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  height: 100%;  
+}
+.home-container {
+  display: flex;
+  justify-content: center; /* Distribute vertical cards */
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+ 
+}
+
+.vertical-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 100%; /* Adjust the width as needed */
+  background-color: #f0f0f0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%);
+}
+
+
+.vertical-card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.horizontal-cards-container {
+  display: flex;
+  flex-direction: row; /* Align horizontal cards vertically within the vertical card */
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.horizontal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content inside the horizontal card */
+  align-items: center; /* Center vertically */
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px; /* Margin between horizontal cards */
+  background-color: #e0e0e0;
+  text-decoration: none; /* Remove underline from links */
+  color: #000; /* Set text color */
+  transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+.horizontal-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.horizontal-card:hover {
+  background-color: #c5f14a;
+}
+
+.horizontal-card p {
+  text-align: center;
+  font-size: 1em;
+}
+.horizontal-card:hover {
+  background-color: #c5f14a; /* Change background on hover */
+}
+.banner-image {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
